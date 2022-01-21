@@ -4,3 +4,48 @@ PERSONALE TO COMMUNICATE WITH EACH OTHER, AND TO BE KEPT UP TO DATE WITH EVERYTH
 OTHER AREAS OF THE HOSPITAL
 
 
+================STARTING THE APP
+First we want to create a new folder, which we can push to github. 
+
+Then use the terminal to npx create-react-app ./ to create the ap in the current folder.
+
+We can then get rid of the files we dont need like the 'src' folder and create our own.
+
+We the create an index.js in the 'src' folder to make sure we import React,ReactDOM, and App.
+
+Then Use ReactDOM.render and render the App followed by document.getElementbyId('root')
+//This pretty much pushes our entire app into the div with the id of 'root' in our premade
+html file.
+
+--Component
+
+Thanks to the ES7 Snippet Tool We can use the shortcut 'rafce'
+React Arrow Function With Export.
+
+This will create the entire boiler plate code for us. 
+
+================Tips 
+[Exporting Multiple Componets]
+When Exporting multiple components to avoid cluter in your main App
+We use a index.js inside of the components folder and export each component
+there
+
+This will allow us to import our componets using {destrcuturing} and we can pretty much 
+store multiple imports in one line, avoiding all of the extra clutter.
+
+example : export { default as ChannelContainer } from "./ChannelContainer";
+
+
+
+
+[CSS BEM]
+This is a naming combetion for CSS
+
+[React Fragments]
+A common pattern in React is for a component to return multiple elements.
+Fragments let you group a list of children without adding extra nodes to the DOM.
+
+You can use {<> </>} the same way you’d use any other element except that it doesn’t support keys or attributes.
+
+
+
